@@ -1,0 +1,62 @@
+body{
+    background-color:rgba(169, 169, 169, 0.123);
+}
+
+#titulos{
+    border: 2px solid;
+    width: 60vw;
+    padding: 3em;
+    margin: auto;
+}
+
+.encabezado:hover{
+    color:rgb(230, 35, 35);
+    cursor: pointer;
+    transition: 1s;
+}
+.encabezado{
+    color: rgb(22, 12, 12);
+}
+/*--------HOME------------*/
+.home{
+    cursor: pointer;
+    transition: 2ms;
+}
+
+.home:hover{
+    color: brown;
+}
+/*--------HOME------------*/
+
+/*--------NOTICIAS------------*/
+.notice{
+    cursor: pointer;
+    transition: 2ms;
+}
+
+.notice:hover{
+    color: brown;
+}
+/*--------NOTICIAS------------*/
+
+/*--------POST------------*/
+.post{
+    cursor: pointer;
+    transition: 2ms;
+}
+
+.post:hover{
+    color: brown;
+}
+/*--------POST------------*/
+
+.logo{
+    width: 300px;
+}
+
+.registro{
+    width: 150px;
+    height: 20px;
+    border-radius: 2vw;
+    cursor: pointer;
+}

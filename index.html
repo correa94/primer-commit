@@ -3,15 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css">
     <title>Mi primer estilo web</title>
   </head>
   <body>
     <div>
-      <header>
-        <div><h1>ESTE ES EL TITULO DE LA PAGINA WEB</h1>
-            <span>HOME</span>
-            <span>NOTICE</span>
-            <span>POST</span>
+      <header id="titulos">
+        <div><h1 class="encabezado">ESTE ES EL TITULO DE LA PAGINA WEB</h1>
+            <div class="noticias">
+            <span class="home">HOME</span>
+            <span class="notice">NOTICE</span>
+            <span class="post">POST</span>
+            </div>
         </div>
       </header>
     </div>
@@ -32,7 +35,7 @@
                 non! Quo!
               </p>
               <div>
-                <img src="./img/viñaIMG.jpg" alt="viña">
+                <img class="logo" src="./img/viñaIMG.jpg" alt="viña">
               </div>
             </div>
             </article>
@@ -63,21 +66,18 @@
       </div>
 
       <div>
-        <label for="Apellido">Apellido</label>
-        <input type="text" name="Apellido">
+        <input type="text" name="Apellido" placeholder="Apellido">
      </div>
 
      <div>
-        <label for="Edad">Edad</label>
-        <input type="number" name="edad">
+        <input type="number" name="edad" placeholder="edad">
      </div>
 
      <div>
-        <label for="Contraseña">Contraseña</label>
-     <input type="password" name="Contraseña" id="miPassword">
+     <input type="password" name="Contraseña" id="miPassword" placeholder="Contraseña">
      </div>
 
-     <button>REGISTRATE</button>
+     <div><button class="registro">REGISTRATE</button></div>        
         </form>
     </footer>
   </body>
